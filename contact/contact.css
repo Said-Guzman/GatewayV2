@@ -1,0 +1,80 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+  
+   body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.kym-cdn.com/entries/icons/original/000/033/069/jojo.jpg");   
+   }
+  /* gets rid of the number and creats background color and box to sperate the body */
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+  li {
+    float: left;
+    color: white;
+     font-family: "SF Fedora";
+    font-size: 300%;
+  }
+  
+  li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #292929;
+  }
+  
+  input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 3px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 100%;
+  }
+  label{
+    font-size: 100%;
+  }
+  /* big box around the text area */
+  .container {
+    border-radius: 10px;
+    background-color: #b3b3b3;
+    padding: 20px;
+  }
+   h2{
+     background-color: black;
+     color: white;
+     font-size: 150%;
+   }
+  
+  footer{
+    background-color: black;
+  text-align: center;
+    color: white;
+    padding: 10px 12px;
+    
+  }
+  img{
+    width: 40px;
+  }
+  small{
+    font-size: 10px;
+  }
+  input[type=submit] {
+   font-size: 150%;
+
+  }
