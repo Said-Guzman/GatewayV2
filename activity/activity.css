@@ -54,7 +54,7 @@ html, body {
      color: white;
      background-color:rgb(32, 32, 32) ;
    }
-  #pizza{
+  #meat,#pineapple,#cheese,#pepperoni{
    width:40%;
    height: 40%;
   }
